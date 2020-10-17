@@ -7,7 +7,7 @@ package com.zyapkov.algorithms.dynamicprogramming;
 
 public class MinimumCoinCount {
 
-  private static int minCoins(int v, int coins[], int size) {
+  public static int minCoins(int v, int coins[], int size) {
 
     int[] m = new int[v + 1]; // m[i] = minimum number of coins that give sum i
     m[0] = 0;
