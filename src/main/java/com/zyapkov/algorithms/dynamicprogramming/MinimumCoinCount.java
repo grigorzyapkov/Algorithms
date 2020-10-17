@@ -1,3 +1,5 @@
+package com.zyapkov.algorithms.dynamicprogramming;
+
 /**
  * Given infinite supply of n coins with values C1, C2, ... , Cn.
  * Return the minimum number of coins needed to make a given sum V.
@@ -27,3 +29,4 @@ public class MinimumCoinCount {
     System.out.println("Minimum coins required is " + minCoins(v, coins, coins.length));
   }
 }
+
