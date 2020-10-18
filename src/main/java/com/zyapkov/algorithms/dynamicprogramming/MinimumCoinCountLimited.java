@@ -48,8 +48,7 @@ public class MinimumCoinCountLimited {
   }
 
   public static void main(String[] args) {
-
-    int size = 4;
+s    int size = 4;
     int[] coins = new int[]{1, 2, 3, 4};
     int[] limits = new int[]{1, 1, 0, 1};
     System.out.println("Minimum coins required are " + minCoinsLimited(10, coins, limits, size));
